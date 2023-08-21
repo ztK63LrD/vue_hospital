@@ -1,18 +1,25 @@
-# Vue 3 + TypeScript + Vite
+## 项目名称：医院预约管理系统
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+用到的相关知识有如下几个方面：
 
-## Recommended IDE Setup
+vite：快速轻量且功能丰富的前端构建工具，帮助开发人员更高效构建现代Web应用程序。
+pnpm：高性能、轻量级npm替代品，帮助开发人员更加高效地处理应用程序的依赖关系。
+Vue3：Vue.js最新版本的用于构建用户界面的渐进式JavaScript框架。
+TypeScript：JavaScript的超集，提供了静态类型检查，使得代码更加健壮。
+vue-router：Vue.js官方提供的路由管理器与Vue.js紧密耦合，非常方便与Vue.js一同使用。
+Pinia：Vue3构建的Vuex替代品，具有响应式能力，提供非常简单的 API，进行状态管理。
+element-plus：基于Vue.js 3.0的UI组件库，用于构建高品质的响应式Web应用程序。
+axios：基于Promise的HTTP客户端，可以在浏览器和node.js中使用。
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## 项目的源码讲解
 
-## Type Support For `.vue` Imports in TS
+项目的源码讲解可参考文章：
+https://blog.csdn.net/qq_53123067/article/details/131670770?spm=1001.2014.3001.5501
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+## 项目运行
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+终端执行 pnpm run dev
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+## 项目打包
+
+终端执行 pnpm run build
